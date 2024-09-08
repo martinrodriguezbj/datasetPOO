@@ -1,3 +1,5 @@
+package ar.edu.unlp.info.escenario02;
+
 // Importar las clases necesarias para las pruebas
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;

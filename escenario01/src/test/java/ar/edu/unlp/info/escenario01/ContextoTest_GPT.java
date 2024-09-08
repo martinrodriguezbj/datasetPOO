@@ -1,3 +1,5 @@
+package ar.edu.unlp.info.escenario01;
+
 // Importando las clases necesarias para los tests
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
