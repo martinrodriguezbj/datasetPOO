@@ -1,0 +1,1 @@
+El programa indica si su variable de instancia “valor” está en el rango [50,100].

@@ -1,0 +1,1 @@
+El programa recibe una contraseña. Si la longitud de la misma es mayor o igual a 10 devuelve True, sinó False.

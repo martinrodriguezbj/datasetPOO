@@ -1,0 +1,1 @@
+El programa devuelve True si su variable de instancia “valor” está en el rango [50,100], en caso contrario lanza una excepción.

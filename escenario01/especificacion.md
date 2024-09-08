@@ -1,0 +1,1 @@
+El programa recibe un número positivo e indica si es par o impar. En caso que el número sea negativo, se lanza una excepción.
