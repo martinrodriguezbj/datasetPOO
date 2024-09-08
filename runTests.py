@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 
-API_KEY = ""
+API_KEY = "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"
 URL = "https://api.openai.com/v1/chat/completions"
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
@@ -63,7 +63,7 @@ def enviar_a_gpt(prompt: str) -> str:
         "messages": [
             {"role": "user", "content": prompt}
         ],
-        "temperature": 0.3,
+        "temperature": 0.5,
     }
 
     try:
@@ -151,7 +151,7 @@ def procesar_escenario(escenario: str):
 def main():
     """Función principal del script."""
     # Iterar sobre los 10 escenarios
-    for i in range(9, 10):
+    for i in range(6, 11):
         escenario = f"escenario{i:02d}"
         print(f"Procesando {escenario}...\n")
         procesar_escenario(escenario)
