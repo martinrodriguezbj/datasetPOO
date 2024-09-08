@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 
-API_KEY = "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"
+API_KEY = ""
 URL = "https://api.openai.com/v1/chat/completions"
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
