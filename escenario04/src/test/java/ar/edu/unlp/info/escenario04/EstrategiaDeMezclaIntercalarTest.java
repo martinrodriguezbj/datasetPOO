@@ -1,3 +1,5 @@
+package ar.edu.unlp.info.escenario04;
+
 // Importando las piezas de JUnit que necesitamos
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,3 +1,5 @@
+package ar.edu.unlp.info.escenario09;
+
 // Contenido del archivo CuentaBancariaTest.java
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
