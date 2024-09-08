@@ -151,7 +151,7 @@ def procesar_escenario(escenario: str):
 def main():
     """Función principal del script."""
     # Iterar sobre los 10 escenarios
-    for i in range(9, 10):
+    for i in range(6, 11):
         escenario = f"escenario{i:02d}"
         print(f"Procesando {escenario}...\n")
         procesar_escenario(escenario)
