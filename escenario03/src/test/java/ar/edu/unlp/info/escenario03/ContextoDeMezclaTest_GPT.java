@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ContextoDeMezclaTest {
+public class ContextoDeMezclaTest_GPT {
 
     private ContextoDeMezcla contexto;
 

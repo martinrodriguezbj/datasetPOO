@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class EstrategiaDeMezclaIntercalarTest {
+public class EstrategiaDeMezclaIntercalarTest_GPT {
 
     private EstrategiaDeMezclaIntercalar estrategia;
 
