@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class EstrategiaDeMezclaIntercalarTest {
+public class EstrategiaDeMezclaIntercalarTest_GPT {
 
     private EstrategiaDeMezclaIntercalar estrategia;
 

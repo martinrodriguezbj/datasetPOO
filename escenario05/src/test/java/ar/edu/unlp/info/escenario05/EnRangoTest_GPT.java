@@ -5,7 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class EnRangoTest {
+public class EnRangoTest_GPT {
 
     private EnRango enRango;
 
