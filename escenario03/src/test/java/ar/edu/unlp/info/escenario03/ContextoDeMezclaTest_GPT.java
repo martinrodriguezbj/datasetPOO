@@ -10,7 +10,7 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ContextoDeMezclaTest {
+public class ContextoDeMezclaTest_GPT {
 
     private ContextoDeMezcla contexto;
 

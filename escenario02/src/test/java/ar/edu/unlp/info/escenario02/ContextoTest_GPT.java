@@ -5,7 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ContextoTest {
+public class ContextoTest_GPT {
     private Contexto contexto;
 
     @BeforeEach

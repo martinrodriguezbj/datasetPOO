@@ -11,7 +11,7 @@ import java.util.Arrays;
 import ar.edu.unlp.info.escenario04.ContextoDeMezcla;
 import ar.edu.unlp.info.escenario04.EstrategiaDeMezclaIntercalar;
 
-public class EstrategiaDeMezclaIntercalarTest {
+public class EstrategiaDeMezclaIntercalarTest_GPT {
 
     // Definiendo los objetos que necesitamos para los tests
     private ContextoDeMezcla contexto;
