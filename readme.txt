@@ -1,3 +1,12 @@
+Este repositorio cuenta con:
+-Un conjunto de artefactos de software (especificaciones e implementaciones) de referencia, representativo de situaciones variadas en las que proveer tests.
+-Un conjunto de tests de referencia diseñados y programados por desarrolladores con formación adecuada, teniendo en cuenta criterios específicos de valores de borde y particiones de equivalencia, para el conjunto de artefactos de referencia.
+-La selección de un prompt para la generación automática de tests, para el conjunto de artefactos de referencia.
+
+En la branch "main", se encuentra el conjunto de especificaciones e implementaciones junto al conjunto de tests diseñados y programado por desarrolladores manualmente.
+
+Cada branch[numero] representa una ejecución del script runTest.py, el cual, para cada uno de los escenarios, instancia el promptTemplate con la especificación e implementación correspondientes. Este prompt generado es enviado a la API de GPT-4, que devuelve los tests generados. Los tests se guardan dentro de la carpeta de tests del escenario bajo el nombre nombreDeClaseTest_GPT.
+
 Primer barrida | branch01
 
 i. Un programa dónde se pruebe un sólo parámetro, ver si anda bien o levanta excepciones.
