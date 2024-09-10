@@ -3,9 +3,19 @@ Este repositorio cuenta con:
 -Un conjunto de tests de referencia diseñados y programados por desarrolladores con formación adecuada, teniendo en cuenta criterios específicos de valores de borde y particiones de equivalencia, para el conjunto de artefactos de referencia.
 -La selección de un prompt para la generación automática de tests, para el conjunto de artefactos de referencia.
 
-En la branch "main", se encuentra el conjunto de especificaciones e implementaciones junto al conjunto de tests diseñados y programado por desarrolladores manualmente.
+Todas las ramas del repositorio comparten lo siguiente:
 
-Cada branch[numero] representa una ejecución del script runTest.py, el cual, para cada uno de los escenarios, instancia el promptTemplate con la especificación e implementación correspondientes. Este prompt generado es enviado a la API de GPT-4, que devuelve los tests generados. Los tests se guardan dentro de la carpeta de tests del escenario bajo el nombre nombreDeClaseTest_GPT.
+En la carpeta raíz se encuentran dos archivos clave: el promptTemplate, que es la plantilla predefinida que se utiliza para generar las solicitudes a GPT, y el runTest.py, que es el script encargado de automatizar dichas solicitudes.
+
+Dentro de cada escenario se encuentra la especificación propia del escenario, junto con el prompt ya instanciado con la especificación e implementación correspondientes.
+
+Existen dos tipos de ramas en el repositorio: la rama "main" y las ramas branch[numero].
+
+En la rama "main" se incluye el conjunto completo de especificaciones e implementaciones, junto con los tests diseñados y programados manualmente por desarrolladores.
+
+Mientras que cada branch[numero], además de contener lo que está presente en la rama main, incluye una ejecución del script runTest.py. Este script, para cada uno de los escenarios, instancia el promptTemplate con la especificación e implementación correspondientes. El prompt generado es enviado a la API de GPT-4, que devuelve los tests generados. Estos tests se guardan en la carpeta de tests del escenario bajo el nombre nombreDeClaseTest_GPT.java.
+
+Docuentación de cada barrida:
 
 Primer barrida | branch01
 
